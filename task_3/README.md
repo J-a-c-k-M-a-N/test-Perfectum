@@ -1,3 +1,28 @@
+### Install Project 
+
+Step inside project directory:
+```
+cd <project_dir>/task_3
+```
+
+Build application docker containers:
+```
+docker-compose build
+```
+
+Start application docker containers:
+```
+docker-compose up -d
+```
+
+Application server should be ready on http://0.0.0.0:8080
+and MySQL server on http://0.0.0.0:3306
+
+Access to MySQL server:
+     `` - MYSQL_DATABASE=test
+        - MYSQL_USER=test
+        - MYSQL_PASSWORD=test``
+
 # CodeIgniter 4 Development
 
 [![Build Status](https://travis-ci.org/codeigniter4/CodeIgniter4.svg?branch=develop)](https://travis-ci.org/codeigniter4/CodeIgniter4)
